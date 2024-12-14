@@ -1,0 +1,21 @@
+.layout-default{
+  .layout-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 14px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    .layout-logo{
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+
+  .layout-footer{
+    background-color: orange;
+    text-align: center;
+    padding: 14px 0;
+  }
+}
